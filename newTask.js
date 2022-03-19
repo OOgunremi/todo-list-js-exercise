@@ -1,4 +1,3 @@
-
 /* eslint-disable func-style */
 function newTask(title, description) {
   const task = {
@@ -27,4 +26,4 @@ task1.logState(); // Clean Cat Litter has not been completed
 task1.markCompleted();
 task1.logState(); // Clean Cat Litter has been completed
 const tasks = [task1, task2];
-//console.log(tasks);
+console.log(tasks);
